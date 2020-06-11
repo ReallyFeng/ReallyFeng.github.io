@@ -1455,7 +1455,7 @@ canvas:not(#ribbon-canvas),
   overflow: auto;
   margin: 0 0 1rem;
   padding: 0;
-  background: #263238;
+  background: #212121;
   color: #eff;
   line-height: 20px;
 }
@@ -1518,11 +1518,11 @@ blockquote footer cite:before {
   border: none;
 }
 #article-container figure.highlight .line::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container figure.highlight .line.marked {
-  background-color: rgba(128,203,196,0.125);
+  background-color: rgba(97,97,97,0.314);
 }
 #article-container figure.highlight table {
   position: relative;
@@ -1561,15 +1561,15 @@ blockquote footer cite:before {
 #article-container figure.highlight .gutter pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
-  background-color: #263238;
-  color: #37474f;
+  background-color: #212121;
+  color: #424242;
   text-align: right;
 }
 #article-container figure.highlight .code pre {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   width: 100%;
-  background-color: #263238;
+  background-color: #212121;
 }
 #article-container figure.highlight .line {
   height: 1rem;
@@ -1599,10 +1599,10 @@ blockquote footer cite:before {
   color: #c792ea;
 }
 #article-container pre .comment {
-  color: #546e7a;
+  color: #4a4a4a;
 }
 #article-container pre .comment::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .variable,
@@ -1631,14 +1631,14 @@ blockquote footer cite:before {
 #article-container pre .tag .name::selection,
 #article-container pre .css .class::selection,
 #article-container pre .css .pseudo::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .tag {
   color: #89ddff;
 }
 #article-container pre .tag::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .number,
@@ -1655,14 +1655,14 @@ blockquote footer cite:before {
 #article-container pre .params::selection,
 #article-container pre .constant::selection,
 #article-container pre .command::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .built_in {
   color: #ffcb6b;
 }
 #article-container pre .built_in::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .ruby .class .title,
@@ -1689,7 +1689,7 @@ blockquote footer cite:before {
 #article-container pre .special::selection,
 #article-container pre .number::selection,
 #article-container pre .formula::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .keyword,
@@ -1700,7 +1700,7 @@ blockquote footer cite:before {
 #article-container pre .keyword::selection,
 #article-container pre .title::selection,
 #article-container pre .css .hexcolor::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .function,
@@ -1721,7 +1721,7 @@ blockquote footer cite:before {
 #article-container pre .perl .sub::selection,
 #article-container pre .javascript .title::selection,
 #article-container pre .coffeescript .title::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 #article-container pre .tag .attr,
@@ -1730,7 +1730,7 @@ blockquote footer cite:before {
 }
 #article-container pre .tag .attr::selection,
 #article-container pre .javascript .function::selection {
-  background: rgba(128,203,196,0.125);
+  background: rgba(97,97,97,0.314);
   color: #eff;
 }
 .highlight-tools {
@@ -1738,7 +1738,7 @@ blockquote footer cite:before {
   overflow: hidden;
   width: 100%;
   height: 1.4rem;
-  background: #1c2429;
+  background: #141414;
   color: #eff;
   font-size: 14px;
 }
@@ -3412,7 +3412,7 @@ img {
   top: 0;
   right: 0;
   z-index: 1;
-  background: #1c2429;
+  background: #141414;
   color: #89ddff;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
